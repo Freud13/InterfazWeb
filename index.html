@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <tittle></tittle>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilo.css" />
+  </head>
+  <body>
+    <script type="text/javascript" src="/js/insert.js"></script>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Game House</a>
+
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Acerca de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index1.html">Video JS</a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="cover d-flex justify-content-center align-items-center flex-column"
+      >
+        <h1>Game House</h1>
+
+        <p>La mejor casa gaming de todo el país</p>
+        <button class="btn btn-dark">Conoce más</button>
+      </div>
+    </header>
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                title="Consola de videojuegos play station 5 blanca"
+                class="cover cover-small"
+                style="background-image: url(img/ps5_imagen.jpg)"
+                data-aos="flip-up"
+                ></div>
+              <div class="card-body">
+                <h3 class="card-title">Play Station</h3>
+                <p class="card-text">
+                  Vive una nueva generación de juegos increíbles de PlayStation
+                  con las nuevas consolas PS5.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                title="Consola de videojuegos xbox blanca"
+                class="cover cover-small"
+                style="background-image: url(img/xbox_imagen.jpg)"
+                data-aos="flip-up"
+              ></div>
+              <div class="card-body">
+                <h3 class="card-title">Xbox</h3>
+                <p class="card-text">
+                  Diviértete con las consoloas Xbox que tenemos para ti y para
+                  todo tu team.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                title="Computadora de torre blanca junto a un mando de videojuegos"
+                class="cover cover-small"
+                style="background-image: url(img/pcgaming_imagen.jpg)"
+                data-aos="flip-up"
+              ></div>
+              <div class="card-body">
+                <h3 class="card-title">PC</h3>
+                <p class="card-text">
+                  Juega y compite con toda tu crew en nuestras pc´s de mayor
+                  nivel.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                title="Consola portátil Nintendo Switch junto a muchos sd´s del juego Animal Crossing"
+                class="cover cover-small"
+                style="background-image: url(img/nintendoswitch_imagen.jpg)"
+                data-aos="flip-up"
+              ></div>
+              <div class="card-body">
+                <h3 class="card-title">Nintendo Switch</h3>
+                <p class="card-text">
+                  Juega divertidos títulos como Nintendo New Super Mario Bros U Deluxe en nuestra Nintendo Switch.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <div class="container mt-5 mb-5">
+            <form action="">
+                <input type="text" name="nombre cliente" id="nombre cliente" placeholder="Digita tu nombre completo" size="35"/>
+                <button type="button" onclick="captura()">Guardar</button>
+            </form>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
